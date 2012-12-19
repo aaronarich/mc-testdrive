@@ -1,0 +1,305 @@
+/*---------------------
+-----Main Elements-----
+---------------------*/
+
+body{
+	font-weight: normal;
+	font-size: 18px;
+	color: #efefef;
+	-webkit-font-smoothing: antialiased;
+}
+
+h1{
+	font-size: 3em;
+}
+
+h2{
+	font-size: 2em;
+}
+
+h3{
+	font-size: 1.5em;
+}
+
+h4{
+	font-size: 1em;
+}
+
+a{
+	font-weight: bold;
+}
+
+li{
+	padding: 15px 0;
+}
+::selection {background: cyan;}
+::-moz-selection {background: cyan;}
+
+/*----------------------
+-----Navigation Bar-----
+----------------------*/
+
+.navbar{
+	list-style-type: none;
+	margin-top: 55px;
+	margin-bottom: 2.25em;
+	padding: 0;
+	font-family: 'Helvetica Neue', Arial, sans-serif;
+	font-weight: normal;
+	a{
+		color: #fff;
+	}
+}
+
+.nav{
+	display: inline;
+	font-weight: bold;
+	padding: 10px 10px 10px 10px;
+	margin: 15px 5px 10px 0;
+	background-color: #E95C41;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	a{
+		text-decoration: none;
+	}
+}
+
+.nav:hover{
+	background-color: #EA867D;
+	a:hover{
+		color: #fff;
+	}
+}
+
+/*---------------------
+------Positioning------
+---------------------*/
+
+.listblock{
+	list-style-type: none;
+	width: 100%;
+	padding: 0;
+}
+
+
+.center{
+	text-align: center;
+}
+
+.centered{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*---------------------
+---Color Definitions---
+---------------------*/
+
+.black{
+	background-color: #1f1f1c;
+	color: #fff;
+	a{
+		color: #fff;
+	}
+	a:hover{
+		color: #B1E1ED;
+	}
+	.nav{
+		background-color: #3F3F38;
+	}
+	.nav:hover{
+		background-color: #787975;
+	}
+}
+
+.gray{
+	background-color: #3F3F38;
+	.nav{
+		background-color: #1f1f1c;
+	}
+	.nav:hover{
+		background-color: #787975;
+	}
+}
+
+.blue{
+	background-color: #2aa0b5;
+	color: #fff;
+	a{
+		color: #fff;
+	}
+	a:hover{
+		color: #B1E1ED;
+	}
+	.nav{
+		background-color: #45bcd2;
+	}
+	.nav:hover{
+		background-color: #6DC6DD;
+	}
+}
+
+.off-white{
+	background-color: #efefef;
+	color: #3F3F38;
+	a{
+		color: #fff;
+	}
+	a:hover{
+		color: #333;
+	}
+	.nav{
+		background-color: #2aa0b5;
+	}
+	.nav:hover{
+		background-color: #6DC6DD;
+	}
+}
+
+.red{
+	background-color: #da3c26;
+	a{
+		color: #fff;
+	}
+	a:hover{
+		color: #cfe2f4;
+	}
+}
+
+.light-red{
+	background-color: #E95C41;
+	a{
+		color: #fff;
+	}
+	a:hover{
+		color: #cfe2f4;
+	}
+	.nav{
+		background-color: #da3c26;
+	}
+	.nav:hover{
+		background-color: #EA867D;
+	}
+}
+
+/*----------------------
+----Text Definitions----
+----------------------*/
+
+.helvetica{
+	font-family: 'Helvetica Neue';
+}
+
+.arial{
+	font-family: Arial;
+}
+
+/*----------------------
+---------Alerts---------
+----------------------*/
+
+.alert{
+	font-size: 13px;
+	color: #41413a;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	padding: 10px 15px;
+	margin: 30px 0 10px 0;
+	line-height: 20px;
+	background-image: url(../images/x.png);
+	background-repeat: no-repeat;
+	background-position: 97% 30%;
+	a{
+		text-decoration: none;
+	}
+}
+
+.blue-alert{
+	background-color: #ceeaef;
+	a{
+		color: #3786a9;
+	}
+}
+
+.green-alert{
+	background-color: #e5eec4;
+	a{
+		color: #41874e;
+	}
+}
+
+.red-alert{
+	background-color: #f5cdc5;
+	a{
+		color: #d63009;
+	}
+}
+
+.yellow-alert{
+	background-color: #fef5c3;
+	a{
+		color: #937d39;
+	}
+}
+
+/*----------------------
+--------Buttons---------
+----------------------*/
+
+.button{
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	font-size: 13px;
+	padding: 1px 10px;
+	text-align: center;
+}
+
+.gray-flat{
+	background-color: #ccc;
+	color: #fff;
+}
+.gray-flat:hover{
+	background-color: #333;
+}
+
+.blue-flat{
+	background-color: #45bcd2;
+	color: #fff;
+}
+.blue-flat:hover{
+	background-color: #2ba0b5;
+}
+
+.gray-contrast{
+	background-color: #e5e5e5;
+	color: #7a7a7a;
+}
+.gray-contrast:hover{
+	background-color: #999999;
+	color: #fff;
+}
+
+.gray-stroke{
+	background-color: #f4f4f4;
+	color: #444444;
+	border: 1px #ddd solid;
+}
+.gray-stroke:hover{
+	background-color: #fafafb;
+	color: #333333;
+	box-shadow: 0 5px 15px 0 #ddd;
+}
+
+.blue-stroke{
+	background-color: #45bcd2;
+	color: #fff;
+	border: 1px #2ba0b5 solid;
+}
+.blue-stroke:hover{
+	background-color: #2ba0b5;
+	color: #fff;
+	box-shadow: 0 5px 15px 0 #ccc;
+}
