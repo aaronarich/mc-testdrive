@@ -206,7 +206,7 @@ li{
 	-webkit-border-radius: 4px;
 	border-radius: 4px;
 	padding: 10px 15px;
-	margin: 30px 0 10px 0;
+	margin: 30px 0 0 0;
 	line-height: 20px;
 	background-image: url(../images/x.png);
 	background-repeat: no-repeat;
@@ -255,6 +255,10 @@ li{
 	font-size: 13px;
 	padding: 1px 10px;
 	text-align: center;
+	-webkit-transition: all 0.15s ease-in-out;
+  -moz-transition: all 0.15s ease-in-out;
+  -ms-transition: all 0.15s ease-in-out;
+  -o-transition: all 0.15s ease-in-out;
 }
 
 .gray-flat{
@@ -302,4 +306,31 @@ li{
 	background-color: #2ba0b5;
 	color: #fff;
 	box-shadow: 0 5px 15px 0 #ccc;
+}
+
+/*----------------------
+---------Inputs---------
+----------------------*/
+
+.input-text{
+	width: 100%;
+}
+
+input[type=text], textarea {
+  -webkit-transition: all 0.30s ease-in-out;
+  -moz-transition: all 0.30s ease-in-out;
+  -ms-transition: all 0.30s ease-in-out;
+  -o-transition: all 0.30s ease-in-out;
+  outline: none;
+  padding: 10px 0px 10px 3px;
+  margin: 5px 1px 3px 0px;
+  border: 1px solid #DDDDDD;
+  text-indent: 5px;
+}
+ 
+input[type=text]:focus, textarea:focus {
+  padding: 10px 0px 10px 3px;
+  margin: 5px 1px 3px 0px;
+  border: 1px solid rgba(196, 196, 196, 1);
+  text-indent: 5px;
 }
