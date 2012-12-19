@@ -7,6 +7,7 @@ body{
 	font-size: 18px;
 	color: #efefef;
 	-webkit-font-smoothing: antialiased;
+	font-family: Helvetica, Arial, sans-serif;
 }
 
 h1{
@@ -140,6 +141,10 @@ li{
 	}
 }
 
+.light-blue{
+	background-color: #fff;
+}
+
 .off-white{
 	background-color: #efefef;
 	color: #3F3F38;
@@ -259,6 +264,7 @@ li{
   -moz-transition: all 0.15s ease-in-out;
   -ms-transition: all 0.15s ease-in-out;
   -o-transition: all 0.15s ease-in-out;
+  text-align: center;
 }
 
 .gray-flat{
@@ -312,10 +318,6 @@ li{
 ---------Inputs---------
 ----------------------*/
 
-.input-text{
-	width: 100%;
-}
-
 input[type=text], textarea {
   -webkit-transition: all 0.30s ease-in-out;
   -moz-transition: all 0.30s ease-in-out;
@@ -333,4 +335,93 @@ input[type=text]:focus, textarea:focus {
   margin: 5px 1px 3px 0px;
   border: 1px solid rgba(196, 196, 196, 1);
   text-indent: 5px;
+}
+
+.input-text{
+	width: 100%;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+}
+
+.input-search{
+	width: 80%;
+	border-radius: 4px 0px 0px 4px;
+	-moz-border-radius: 4px 0px 0px 4px;
+	-webkit-border-radius: 4px 0px 0px 4px;
+}
+
+.input-button1{
+	width: 15%;
+	padding: 10px 0;
+	margin: 0 0 0 -7px;
+	border: 1px solid #DDDDDD;
+	background-color: #f4f4f4;
+	background-image: url('../images/search-gray.png');
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	border-radius: 0px 4px 4px 0px;
+	-moz-border-radius: 0px 4px 4px 0px;
+	-webkit-border-radius: 0px 4px 4px 0px;
+	-webkit-transition: all 0.30s ease-in-out;
+  -moz-transition: all 0.30s ease-in-out;
+  -ms-transition: all 0.30s ease-in-out;
+  -o-transition: all 0.30s ease-in-out;
+}
+
+.input-button1:hover{
+	background-color: #fafafa;
+	background-image: url('../images/search-black.png');
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+}
+
+.input-button2{
+	width: 15%;
+	padding: 10px 0;
+	margin: 0 0 0 -7px;
+	border: 1px solid #DDDDDD;
+	background-color: #cccccc;
+	background-image: url('../images/search-white.png');
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	border-radius: 0px 4px 4px 0px;
+	-moz-border-radius: 0px 4px 4px 0px;
+	-webkit-border-radius: 0px 4px 4px 0px;
+	-webkit-transition: all 0.30s ease-in-out;
+  -moz-transition: all 0.30s ease-in-out;
+  -ms-transition: all 0.30s ease-in-out;
+  -o-transition: all 0.30s ease-in-out;
+}
+
+.input-button2:hover{
+	background-color: #333333;
+	background-image: url('../images/search-white.png');
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+}
+
+.input-button3{
+	width: 15%;
+	padding: 10px 0;
+	margin: 0 0 0 -7px;
+	border: 1px solid #DDDDDD;
+	background-color: #e5e5e5;
+	background-image: url('../images/search-gray.png');
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	border-radius: 0px 4px 4px 0px;
+	-moz-border-radius: 0px 4px 4px 0px;
+	-webkit-border-radius: 0px 4px 4px 0px;
+	-webkit-transition: all 0.30s ease-in-out;
+  -moz-transition: all 0.30s ease-in-out;
+  -ms-transition: all 0.30s ease-in-out;
+  -o-transition: all 0.30s ease-in-out;
+}
+
+.input-button3:hover{
+	background-color: #999999;
+	background-image: url('../images/search-white.png');
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
 }
