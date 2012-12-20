@@ -141,8 +141,9 @@ li{
 	}
 }
 
-.light-blue{
+.white{
 	background-color: #fff;
+	color: #000;
 }
 
 .off-white{
@@ -262,8 +263,6 @@ li{
 	text-align: center;
 	-webkit-transition: all 0.15s ease-in-out;
   -moz-transition: all 0.15s ease-in-out;
-  -ms-transition: all 0.15s ease-in-out;
-  -o-transition: all 0.15s ease-in-out;
   text-align: center;
 }
 
@@ -319,10 +318,8 @@ li{
 ----------------------*/
 
 input[type=text], textarea {
-  -webkit-transition: all 0.30s ease-in-out;
-  -moz-transition: all 0.30s ease-in-out;
-  -ms-transition: all 0.30s ease-in-out;
-  -o-transition: all 0.30s ease-in-out;
+  -webkit-transition: all 0.15s ease-in-out;
+  -moz-transition: all 0.15s ease-in-out;
   outline: none;
   padding: 10px 0px 10px 3px;
   margin: 5px 1px 3px 0px;
@@ -365,10 +362,8 @@ input[type=text]:focus, textarea:focus {
 	border-radius: 0px 4px 4px 0px;
 	-moz-border-radius: 0px 4px 4px 0px;
 	-webkit-border-radius: 0px 4px 4px 0px;
-	-webkit-transition: all 0.30s ease-in-out;
-  -moz-transition: all 0.30s ease-in-out;
-  -ms-transition: all 0.30s ease-in-out;
-  -o-transition: all 0.30s ease-in-out;
+	-webkit-transition: all 0.15s ease-in-out;
+  -moz-transition: all 0.15s ease-in-out;
 }
 
 .input-button1:hover{
@@ -376,6 +371,7 @@ input[type=text]:focus, textarea:focus {
 	background-image: url('../images/search-black.png');
 	background-repeat: no-repeat;
 	background-position: 50% 50%;
+	box-shadow: 0 1px 5px 0 #ccc;
 }
 
 .input-button2{
@@ -390,10 +386,8 @@ input[type=text]:focus, textarea:focus {
 	border-radius: 0px 4px 4px 0px;
 	-moz-border-radius: 0px 4px 4px 0px;
 	-webkit-border-radius: 0px 4px 4px 0px;
-	-webkit-transition: all 0.30s ease-in-out;
-  -moz-transition: all 0.30s ease-in-out;
-  -ms-transition: all 0.30s ease-in-out;
-  -o-transition: all 0.30s ease-in-out;
+	-webkit-transition: all 0.15s ease-in-out;
+  -moz-transition: all 0.15s ease-in-out;
 }
 
 .input-button2:hover{
@@ -415,10 +409,8 @@ input[type=text]:focus, textarea:focus {
 	border-radius: 0px 4px 4px 0px;
 	-moz-border-radius: 0px 4px 4px 0px;
 	-webkit-border-radius: 0px 4px 4px 0px;
-	-webkit-transition: all 0.30s ease-in-out;
-  -moz-transition: all 0.30s ease-in-out;
-  -ms-transition: all 0.30s ease-in-out;
-  -o-transition: all 0.30s ease-in-out;
+	-webkit-transition: all 0.15s ease-in-out;
+  -moz-transition: all 0.15s ease-in-out;
 }
 
 .input-button3:hover{
@@ -426,4 +418,112 @@ input[type=text]:focus, textarea:focus {
 	background-image: url('../images/search-white.png');
 	background-repeat: no-repeat;
 	background-position: 50% 50%;
+}
+
+/*----------------------
+-----Directionals-------
+----------------------*/
+
+.left-button{
+	margin: 0;
+	height: 40px;
+	width: 40px;
+	border-radius: 4px 0px 0px 4px;
+	-moz-border-radius: 4px 0px 0px 4px;
+	-webkit-border-radius: 4px 0px 0px 4px;
+	-webkit-transition: all 0.15s ease-in-out;
+  -moz-transition: all 0.15s ease-in-out;
+  float: left;
+  margin-left: 85px;
+}
+
+.right-button{
+	margin: 0;
+	height: 40px;
+	width: 40px;
+	display: block;
+	border-radius: 0px 4px 4px 0px;
+	-moz-border-radius: 0px 4px 4px 0px;
+	-webkit-border-radius: 0px 4px 4px 0px;
+	-webkit-transition: all 0.15s ease-in-out;
+  -moz-transition: all 0.15s ease-in-out;
+  float: right;
+  margin-right: 85px;
+}
+
+.light-gray-lbtn{
+	background-color: #f4f4f4;
+	border: 1px solid #dddddd;
+	background-image: url('../images/l-arrow-gray.png');
+	background-repeat: no-repeat;
+	background-position: 45% 50%;
+}
+
+.light-gray-rbtn{
+	background-color: #f4f4f4;
+	border: 1px solid #dddddd;
+	background-image: url('../images/r-arrow-gray.png');
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+}
+
+.light-gray-lbtn:hover{
+	background-color: #fafafa;
+	box-shadow: 0 1px 5px 0 #ccc;
+}
+
+.light-gray-rbtn:hover{
+	background-color: #fafafa;
+	background-image: url('../images/r-arrow-black.png');
+	box-shadow: 0 1px 5px 0 #ccc;
+}
+
+.dark-gray-lbtn{
+	background-color: #cccccc;
+	background-image: url('../images/l-arrow-white.png');
+	background-repeat: no-repeat;
+	background-position: 45% 50%;
+}
+
+.dark-gray-rbtn{
+	background-color: #cccccc;
+	background-image: url('../images/r-arrow-white.png');
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+}
+
+.dark-gray-lbtn:hover{
+	background-color: #000;
+	box-shadow: 0 1px 5px 0 #ccc;
+}
+
+.dark-gray-rbtn:hover{
+	background-color: #000;
+	box-shadow: 0 1px 5px 0 #ccc;
+}
+
+.mid-gray-lbtn{
+	background-color: #e5e5e5;
+	background-image: url('../images/l-arrow-gray.png');
+	background-repeat: no-repeat;
+	background-position: 45% 50%;
+}
+
+.mid-gray-rbtn{
+	background-color: #e5e5e5;
+	background-image: url('../images/r-arrow-gray.png');
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+}
+
+.mid-gray-lbtn:hover{
+	background-color: #999999;
+	background-image: url('../images/l-arrow-white.png');
+	box-shadow: 0 1px 5px 0 #ccc;
+}
+
+.mid-gray-rbtn:hover{
+	background-color: #999999;
+	background-image: url('../images/r-arrow-white.png');
+	box-shadow: 0 1px 5px 0 #ccc;
 }
