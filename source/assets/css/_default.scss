@@ -470,6 +470,7 @@ input[type=text]:focus, textarea:focus {
 
 .light-gray-lbtn:hover{
 	background-color: #fafafa;
+	background-image: url('../images/l-arrow-black.png');
 	box-shadow: 0 1px 5px 0 #ccc;
 }
 
@@ -527,4 +528,104 @@ input[type=text]:focus, textarea:focus {
 	background-color: #999999;
 	background-image: url('../images/r-arrow-white.png');
 	box-shadow: 0 1px 5px 0 #ccc;
+}
+
+/*---------------------------
+--- COOL SOCIAL STUFF ^.^ ---
+---------------------------*/
+
+// #social_links {
+// 	position: fixed;
+// 	top: 190px;
+// 	right: 0;
+// 	margin-right: 0;
+// 	float: right;
+// }
+
+#social_links ul { 
+	list-style-type: none;
+	float: left;
+	margin: 0;
+}
+
+#social_links li {
+	float: left;
+	width: 100%;
+}
+
+#social_links a{
+	text-decoration: none;
+	color: #fff;
+}
+
+#social_links span {
+  height: 40px;
+  width: 40px;
+	overflow: hidden;
+	text-decoration: none;
+	float: right;
+	vertical-align: middle;
+	margin-bottom: 2px;
+	-webkit-transition: all 0.2s ease;
+	-moz-transition: all 0.2s ease;
+	-o-transition: all 0.2s ease;
+	transition: all 0.2s ease;
+}
+
+#social_links span.fb {
+	background: #262626 url('https://shoprevolution.com/template/images/fb.png') no-repeat right top;
+}
+
+#social_links span.twitter {
+	background: #262626 url('https://shoprevolution.com/template/images/twitter.png') no-repeat right top;
+}
+
+#social_links span.pintrest {
+	background: #262626 url('https://shoprevolution.com/template/images/pintrest.png') no-repeat right top;
+}
+
+#social_links span.fb:hover,
+#social_links span.fb:active,
+#social_links span.twitter:hover,
+#social_links span.twitter:active,
+#social_links span.pintrest:hover,
+#social_links span.pintrest:active {
+	overflow: hidden;
+    height: 40px;
+    width: 120px;
+}
+
+#social_links span.fb:hover,
+#social_links span.fb:active {
+	background-color: #3B5998;
+}
+
+#social_links span.twitter:hover,
+#social_links span.twitter:active {
+	background-color: #31b6d9;
+}
+
+#social_links span.pintrest:hover,
+#social_links span.pintrest:active {
+	background-color: #CB2027;
+}
+
+#social_links span p {
+	margin: 0;
+	padding: 13px 0 0 10px;
+	opacity: 0;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"; /* IE 8 hack */
+	filter: alpha(opacity = 0); /* IE 5-7 hack */
+	height: 27px;
+	font: normal normal bold 12px Arial, sans-serif;
+	-webkit-transition: all 0.1s ease;
+	-moz-transition: all 0.1s ease;
+	-o-transition: all 0.1s ease;
+	transition: all 0.1s ease;
+}
+
+#social_links span p:hover {
+	opacity: 1.0;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)"; /* IE 8 hack */
+	filter: alpha(opacity = 100); /* IE 5-7 hack */
 }
